@@ -563,3 +563,7 @@ function postpone(fn: (value: void) => void) {
 }
 
 export default ReactQuill;
+
+//@ts-ignore
+window.ReactQuill = ReactQuill
+

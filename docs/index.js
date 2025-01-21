@@ -94,6 +94,9 @@ class Editor extends React.Component {
             onChangeSelection={this.onEditorChangeSelection}
             onFocus={this.onEditorFocus}
             onBlur={this.onEditorBlur}
+            modules={{
+                date: new Date().toString(),
+            }}
           />
         )}
       </div>
